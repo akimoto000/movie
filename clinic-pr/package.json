@@ -1,0 +1,23 @@
+{
+  "name": "clinic-pr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts ClinicPR out/clinic-pr.mp4",
+    "build": "remotion bundle src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@remotion/bundler": "^4.0.411",
+    "@remotion/cli": "^4.0.411",
+    "@types/react": "^19.2.10",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "remotion": "^4.0.411",
+    "typescript": "^5.9.3"
+  }
+}
